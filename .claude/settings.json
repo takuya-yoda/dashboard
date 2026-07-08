@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(/index.html)", "Write(/index.html)",
+      "Edit(/404.html)", "Write(/404.html)",
+      "Edit(/*.html)", "Write(/*.html)",
+      "Edit(/assets/**)", "Write(/assets/**)",
+      "Edit(/css/**)", "Write(/css/**)",
+      "Edit(/js/**)", "Write(/js/**)",
+      "Edit(/img/**)", "Write(/img/**)",
+      "Edit(/_config.yml)", "Write(/_config.yml)"
+    ],
+    "allow": [
+      "Edit(/profile/**)", "Write(/profile/**)",
+      "Edit(/recommend/**)", "Write(/recommend/**)"
+    ]
+  }
+}
