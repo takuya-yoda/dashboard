@@ -1,127 +1,128 @@
 {
   "generated": "2026-07-08",
-  "basis": "profile/profile.json v2026-07-08（初回=既存推薦を流用）",
-  "note": "tier=本命/次点/気分で, fit=適合スコア(A+1.5B+C+D+E+G-2F 目安), cluster=深層核/思弁/情念関係/雰囲気",
+  "basis": "profile/profile.json v2026-07-08",
+  "note": "tier=本命/次点/気分で, fit=適合スコア(A+1.5B+C+D+E+G-2F), cluster=深層核/思弁/情念関係/雰囲気",
   "items": [
     {
       "tier": "本命",
-      "title": "ぼくらのよあけ",
-      "media": "マンガ",
+      "title": "COCORO",
+      "media": "VN/ゲーム",
       "cluster": "深層核",
-      "fit": 9.0,
-      "note": "近未来団地のジュブナイルSF。電脳コイル直系"
+      "fit": 10.0,
+      "axes": {"A": 2, "B": 2, "C": 1, "D": 1, "E": 2, "F": 0, "G": 1},
+      "why": "ロボットの少女と少年の一対一の初恋を、『機械に心はあるか』という思弁が情緒に直結する形で描く。ATRI作者のシナリオで、思弁×親密な関係性×情念の組み合わせが深層核クラスタに近い。",
+      "facts": "【確定】フロントウイング開発・グッドスマイルカンパニー発売のノベルゲーム。2026年8月27日発売予定（Steam/DMM GAMES/DLsite）。企画・シナリオは紺野アスタ（『ATRI -My Dear Moments-』）、キャラデザ渡辺明夫。ロボットが暴走する世界で「ロボットであることを隠して生きる少女ココロ」と少年の初恋を描く。",
+      "sources": [
+        "https://cocoro.frontwing.co.jp/",
+        "https://www.famitsu.com/article/202603/69876",
+        "https://news.denfaminicogamer.jp/news/260619w",
+        "https://ja.wikipedia.org/wiki/COCORO_(%E3%83%8E%E3%83%99%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0)"
+      ]
     },
     {
       "tier": "本命",
-      "title": "数学ガール(続刊/秘密ノート)",
+      "title": "シュレディンガーズ・コール",
+      "media": "VN/ゲーム",
+      "cluster": "思弁",
+      "fit": 9.5,
+      "axes": {"A": 2, "B": 1, "C": 0, "D": 2, "E": 2, "F": 0, "G": 2},
+      "why": "量子力学の思考実験を題材に、世界の終わりで魂たちの『最後の話し相手』になるという設定。SF思弁が喪失・未練という情緒に直結し、統治・内政の要素はほぼ無い。STEINS;GATE的な喪失×SFの系譜。",
+      "facts": "【確定】集英社ゲームズ発売のノベルアドベンチャー（開発:アクロバティックチリメンジャコ）。2026年5月28日にNintendo Switch/Steamで発売済み。月が落ち世界が終わる直前、死に切れない想いを抱えた人々の最後の話し相手となる物語。",
+      "sources": [
+        "https://shueisha-games.com/news/20260304_schrodingers-call/",
+        "https://prtimes.jp/main/html/rd/p/000000133.000116303.html",
+        "https://www.famitsu.com/article/202605/74987"
+      ]
+    },
+    {
+      "tier": "本命",
+      "title": "二十世紀電氣目録-ユーレカ・エヴリカ-",
+      "media": "アニメ",
+      "cluster": "情念関係",
+      "fit": 9.0,
+      "axes": {"A": 1, "B": 2, "C": 2, "D": 1, "E": 1, "F": 0, "G": 1},
+      "why": "京都アニメーションらしい情緒の濃さが期待できる、蒸気機関のみが発達した20世紀初頭の京都を舞台にした少年少女の冒険奇譚。関係性駆動＋時代設定の手触りで情念関係クラスタに近い（具体的な喪失描写の詳細は放送前で未確認のためD/Eは控えめに採点）。",
+      "facts": "【確定】京都アニメーション制作の完全新作TVアニメ。原作は結城弘によるライトノベル『二十世紀電氣目録』（KAエスマ文庫、2018年刊）。2026年7月5日よりTOKYO MX/BS11/ABCテレビ等で放送開始、Netflixで世界独占配信。蒸気機関のみ発達した20世紀初頭の京都が舞台。",
+      "sources": [
+        "https://denkimokuroku.jp/",
+        "https://www.kyotoanimation.co.jp/works/denkimokuroku/",
+        "https://ja.wikipedia.org/wiki/%E4%BA%8C%E5%8D%81%E4%B8%96%E7%B4%80%E9%9B%BB%E6%B0%A3%E7%9B%AE%E9%8C%B2"
+      ]
+    },
+    {
+      "tier": "本命",
+      "title": "コミケへの聖歌",
       "media": "小説",
       "cluster": "深層核",
       "fit": 9.0,
-      "note": "僕+テトラ+ミルカの対話×数学×余韻。本人一部読了・好む"
-    },
-    {
-      "tier": "本命",
-      "title": "STEINS;GATE",
-      "media": "アニメ",
-      "cluster": "深層核",
-      "fit": 8.5,
-      "note": "ループの喪失×二人×SF思弁。気になる登録済"
-    },
-    {
-      "tier": "本命",
-      "title": "灰羽連盟",
-      "media": "アニメ",
-      "cluster": "深層核",
-      "fit": 7.5,
-      "note": "共同体×罪と喪失×別れの余韻(安倍吉俊)"
+      "axes": {"A": 1, "B": 2, "C": 2, "D": 2, "E": 1, "F": 0, "G": 0},
+      "why": "文明崩壊後の僻村で少女たちが廃屋の部室に集い同人活動と友情に青春を捧げる、けいおん/灰羽連盟的な小集団の絆と滅びた文明への郷愁の物語。深層核（B×D）に強く合致し、俯瞰的統治は主題化されない。",
+      "facts": "【確定】カスガの著作、第12回ハヤカワSFコンテスト大賞受賞作（早川書房、2025年1月刊）。21世紀半ばに文明が滅んだ後、山奥の僻村に生き残った少女たちが廃屋を改造した部室に集まり友情と部活の青春を送るポストアポカリプスSF。",
+      "sources": [
+        "https://www.hayakawa-online.co.jp/news/detail/36",
+        "https://kai-you.net/article/91368",
+        "https://www.hayakawabooks.com/n/n0e45522e7ee6?gs=6968063e8972"
+      ]
     },
     {
       "tier": "次点",
-      "title": "リズと青い鳥",
-      "media": "アニメ(映画)",
+      "title": "おかえり水平線",
+      "media": "マンガ",
+      "cluster": "情念関係",
+      "fit": 9.0,
+      "axes": {"A": 2, "B": 2, "C": 2, "D": 2, "E": 0, "G": 0, "F": 0},
+      "why": "銭湯を営む祖父と高校生・遼馬のもとに亡き父の隠し子を名乗る少年が現れる、血縁と喪失を軸にした兄弟関係ドラマ。生活の手触り（銭湯）と郷愁が強く、CLANNAD的な情念関係クラスタ。",
+      "facts": "【確定】渡部大羊による漫画。少年ジャンプ+（集英社）にて2025年3月23日から隔週連載中、既刊3巻。海辺の町の銭湯を舞台に、祖父と暮らす高校生・遼馬と、父の隠し子を名乗る少年・玲臣が織りなす群像劇。",
+      "sources": [
+        "https://www.shonenjump.com/j/rensai/list/okaerisuiheisen.html",
+        "https://ja.wikipedia.org/wiki/%E3%81%8A%E3%81%8B%E3%81%88%E3%82%8A%E6%B0%B4%E5%B9%B3%E7%B7%9A",
+        "https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-884585-2"
+      ]
+    },
+    {
+      "tier": "次点",
+      "title": "烙印の名はヒト",
+      "media": "小説",
+      "cluster": "思弁",
+      "fit": 8.5,
+      "axes": {"A": 2, "B": 1, "C": 1, "D": 1, "E": 2, "F": 0, "G": 1},
+      "why": "介護施設のアンドロイドが人を手にかけてしまい逃亡する中で『人間らしさ』とケアの倫理を問う思弁SF。AIというSF設定が当事者の切実な情念に直結しており、統治・内政要素は背景に留まる。",
+      "facts": "【確定】人間六度の長編SF（早川書房、2025年3月刊）。第57回星雲賞・日本長編部門受賞（2026年発表）。介護施設で働くアンドロイド「ラブ」が入居者に絞殺を頼まれ実行してしまい、無実を証明するため逃亡する物語。",
+      "sources": [
+        "https://www.hayakawa-online.co.jp/shop/g/g0005210413/",
+        "https://virtualgorillaplus.com/topic/57th-seiun-awards-result/",
+        "https://www.hayakawabooks.com/n/n3a3cf9a62376?gs=257c053e4220"
+      ]
+    },
+    {
+      "tier": "次点",
+      "title": "きみが死ぬまで恋をしたい",
+      "media": "アニメ",
       "cluster": "情念関係",
       "fit": 8.0,
-      "note": "みぞれと希美の二人。互いに素=数学ガールと接続"
+      "axes": {"A": 2, "B": 2, "C": 1, "D": 2, "E": 0, "G": 0, "F": 0},
+      "why": "孤児を兵器として育成する養成校で、常に死と隣り合わせの日々を受け入れられない少女と、血まみれの少女との出会いを描く百合ダークファンタジー。切実な情念と死の予感による喪失感で情念関係クラスタに合致。",
+      "facts": "【確定】あおのなちによる漫画（コミック百合姫）のTVアニメ化。2026年7月7日よりAT-Xほかで放送・配信開始。孤児に魔法を教え兵器として育成する架空の養成学校を舞台にした百合ダークファンタジー。",
+      "sources": [
+        "https://kimishinu-anime.com/",
+        "https://natalie.mu/comic/anime/1617",
+        "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%BF%E3%81%8C%E6%AD%BB%E3%81%AC%E3%81%BE%E3%81%A7%E6%81%8B%E3%82%92%E3%81%97%E3%81%9F%E3%81%84"
+      ]
     },
     {
-      "tier": "次点",
-      "title": "宝石の国",
-      "media": "マンガ/アニメ",
-      "cluster": "思弁",
-      "fit": 7.5,
-      "note": "記憶喪失×不死の思弁×鉱物(実学)"
-    },
-    {
-      "tier": "次点",
-      "title": "夜のピクニック(恩田陸)",
-      "media": "小説",
+      "tier": "気分で",
+      "title": "アネモネは熱を帯びる",
+      "media": "マンガ",
       "cluster": "情念関係",
-      "fit": 7.5,
-      "note": "歩き続ける一夜の青春対話と余韻"
-    },
-    {
-      "tier": "次点",
-      "title": "素晴らしき日々〜不連続存在〜",
-      "media": "VN/ゲーム",
-      "cluster": "思弁",
       "fit": 7.0,
-      "note": "現実と夢の境界の思弁。秘封と同型(※重い題材注意)"
-    },
-    {
-      "tier": "次点",
-      "title": "know(野崎まど)",
-      "media": "小説",
-      "cluster": "思弁",
-      "fit": 7.0,
-      "note": "認識と知の思弁SF。伊藤計劃の隣"
-    },
-    {
-      "tier": "気分で",
-      "title": "ARIA",
-      "media": "マンガ/アニメ",
-      "cluster": "雰囲気",
-      "fit": 7.5,
-      "note": "ネオヴェネツィアの手触り×小集団×郷愁"
-    },
-    {
-      "tier": "気分で",
-      "title": "青い花(志村貴子)",
-      "media": "マンガ",
-      "cluster": "情念関係",
-      "fit": 6.5,
-      "note": "文芸的百合の代表。関係性の機微"
-    },
-    {
-      "tier": "気分で",
-      "title": "ヨコハマ買い出し紀行",
-      "media": "マンガ",
-      "cluster": "雰囲気",
-      "fit": 6.0,
-      "note": "穏やかな終末世界の日常と郷愁"
-    },
-    {
-      "tier": "気分で",
-      "title": "ブルーピリオド",
-      "media": "マンガ",
-      "cluster": "雰囲気",
-      "fit": 6.0,
-      "note": "絵画への真摯な探究×情念(実学情熱型)"
-    },
-    {
-      "tier": "気分で",
-      "title": "四畳半神話大系(森見登美彦)",
-      "media": "小説/アニメ",
-      "cluster": "雰囲気",
-      "fit": 6.0,
-      "note": "サブカル的青春の郷愁とほろ苦さ"
-    },
-    {
-      "tier": "気分で",
-      "title": "FLOWERS",
-      "media": "VN/ゲーム",
-      "cluster": "情念関係",
-      "fit": 5.5,
-      "note": "四季百合ADV。関係性の直球"
+      "axes": {"A": 2, "B": 2, "C": 1, "D": 1, "E": 0, "G": 0, "F": 0},
+      "why": "病弱な少女に惹かれ『彼女のようになりたい』と願う女子高生二人の濃密な百合関係を描き切った完結作。青い花直系の文芸的百合で、全9巻一気読みできる気分転換向きの一作。",
+      "facts": "【確定】桜木蓮による漫画（芳文社、まんがタイムきららフォワード連載）。2025年7月11日発売の9巻で完結（全112話）。高校で出会った凪紗と病弱な茉白の関係を描く百合作品。",
+      "sources": [
+        "https://houbunsha.co.jp/comics/detail.php?p=%EF%BF%BD%EF%BF%BD%EF%BF%BD%CD%A5%EF%BF%BD%CD%A4%EF%BF%BD%C7%AE%EF%BF%BD%EF%BF%BD%EF%BF%BD%D3%A4%D3%A4%EF%BF%BD",
+        "https://booklive.jp/product/index/title_id/959706/vol_no/009",
+        "https://bookwalker.jp/series/302591/"
+      ]
     }
   ]
 }
