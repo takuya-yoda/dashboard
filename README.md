@@ -26,7 +26,7 @@
  recommend/  … おすすめ出力（JSON＋履歴＋ニュース）
         │
         ▼
- GitHub Pages（サイト本体 + recommend_widget） → 所有者がブラウザで閲覧
+ GitHub Pages（index.html） → 所有者がブラウザで閲覧
 ```
 
 三層の責務を分離しているのが要点：**嗜好モデル（安定・人力更新）**、**おすすめ出力（週次・自動更新）**、**サイト表示（静的）**。
@@ -37,8 +37,7 @@
 
 ```
 dashboard/
-├── index.html など          … サイト本体（自動化は編集しない）
-├── recommend_widget.html    … recommend.json を読み描画する最小スニペット（サイトに組込済）
+├── index.html               … サイト本体（recommend.json を読み描画。自動化は編集しない）
 │
 ├── profile/                 … 傾向分析DB（人力・数ヶ月に1回更新／週次は読取のみ）
 │   ├── profile.json         … 嗜好モデル本体（7軸・採点式・判別ルール・クラスタ・アンカー）
@@ -93,9 +92,9 @@ dashboard/
   - **Repeats（Schedule）= 週1回・有効**。
 - 権限の担保: 一次担保は **コミット範囲を `recommend/` に限定**（サイト本体を触っても push されない）。二次担保が `.claude/settings.json`。
 
-### 3.5 recommend_widget.html（サイト表示）
+### 3.5 index.html（サイト表示）
 - `RECOMMEND_URL`（既定 `recommend/recommend.json`）を fetch してカード描画。外部依存なし・ライト/ダーク対応。
-- 単体ページ配置、または `<div id="anime-recommend">`＋`<script>` を既存ページに埋め込み。
+- 公開URL: https://takuya-yoda.github.io/dashboard/ （GitHub Pages / main ブランチ root 配信）。
 
 ---
 
@@ -124,11 +123,11 @@ dashboard/
 | 新しい本人評価/較正作を追加 | `profile/profile.json` | `anchors` に `{t,r,A..G}` を追加 |
 | 実在検証を厳しくする | 週次プロンプト | 「新作アニメは公式サイト必須／小説は出版社ページ必須」等を追記 |
 | クラスタ定義を見直す | `profile/profile.json` + `archive/analysis34.py` | 母集団拡張で再計算し `clusters` 更新 |
-| サイトの見た目 | `recommend_widget.html` | CSS/レイアウト調整（`RECOMMEND_URL` はパスに合わせる） |
+| サイトの見た目 | `index.html` | CSS/レイアウト調整（`RECOMMEND_URL` はパスに合わせる） |
 | 実行時刻・頻度 | ルーティン | Schedule プリセット、または `/schedule update` で cron（最小1時間） |
 | 毎週更新の通知 | ルーティン/連携 | 通知手段を追加（メール/プッシュ等） |
 
-**原則**: 嗜好の“意味”に関わる変更は `profile/`、選び方・出力の運用に関わる変更は週次プロンプト、見た目は widget。役割の境界を守る。
+**原則**: 嗜好の“意味”に関わる変更は `profile/`、選び方・出力の運用に関わる変更は週次プロンプト、見た目は `index.html`。役割の境界を守る。
 
 ---
 
