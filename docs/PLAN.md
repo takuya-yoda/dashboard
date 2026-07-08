@@ -43,3 +43,8 @@ Claude Cowork でおすすめ作品リストまで表示
 
 
 傾向分析まで作成した
+
+
+現在 Claude code on web と GitHub が連携中
+あとで権限を制限したい
+

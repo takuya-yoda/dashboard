@@ -1,0 +1,101 @@
+<!doctype html>
+<!--
+  おすすめ表示ウィジェット（recommend/recommend.json を読み込んで描画）
+  使い方は2通り:
+   (A) このファイルをそのまま recommend.html 等としてサイトに置く（単体ページ）。
+   (B) 既存ページに埋め込む: 下記の <div id="anime-recommend"> と <script>…</script> 部分だけを
+       既存HTMLにコピーする（CSSはstyleごと持っていくか、既存CSSに合わせて調整）。
+  ※ RECOMMEND_URL はサイト構成に合わせて調整。ルート直下に置くなら "recommend/recommend.json"。
+  ※ 外部依存なし・localStorage不使用。ライト/ダーク両対応。
+-->
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>今週のおすすめ</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#1a1d24; --fg:#e8eaed; --muted:#9aa0aa;
+    --line:#2a2e37; --accent:#7aa2f7; --honmei:#f7a072; --jiten:#7aa2f7; --kibun:#9ece6a;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f7f8fa; --card:#ffffff; --fg:#1a1d24; --muted:#5b616e; --line:#e4e7ec; }
+  }
+  #anime-recommend{ font-family:system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--fg);
+    background:var(--bg); max-width:820px; margin:0 auto; padding:24px 16px; }
+  #anime-recommend h2{ font-size:1.35rem; margin:0 0 4px; }
+  #anime-recommend .meta{ color:var(--muted); font-size:.82rem; margin-bottom:18px; }
+  #anime-recommend .card{ background:var(--card); border:1px solid var(--line);
+    border-radius:12px; padding:14px 16px; margin:10px 0; }
+  #anime-recommend .row{ display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; }
+  #anime-recommend .title{ font-size:1.05rem; font-weight:650; }
+  #anime-recommend .tier{ font-size:.72rem; font-weight:700; padding:2px 8px; border-radius:999px;
+    color:#0f1115; }
+  #anime-recommend .tier.honmei{ background:var(--honmei); }
+  #anime-recommend .tier.jiten{ background:var(--jiten); }
+  #anime-recommend .tier.kibun{ background:var(--kibun); }
+  #anime-recommend .badge{ font-size:.72rem; color:var(--muted); border:1px solid var(--line);
+    border-radius:999px; padding:2px 8px; }
+  #anime-recommend .why{ margin:8px 0 0; font-size:.92rem; line-height:1.55; }
+  #anime-recommend .facts{ margin:6px 0 0; font-size:.82rem; color:var(--muted); line-height:1.5; }
+  #anime-recommend .src{ margin:6px 0 0; font-size:.78rem; }
+  #anime-recommend .src a{ color:var(--accent); text-decoration:none; margin-right:10px; }
+  #anime-recommend .src a:hover{ text-decoration:underline; }
+  #anime-recommend .err{ color:var(--muted); }
+</style>
+</head>
+<body>
+
+<div id="anime-recommend" aria-live="polite">読み込み中…</div>
+
+<script>
+(function(){
+  // ← サイト構成に合わせて調整
+  var RECOMMEND_URL = "recommend/recommend.json";
+
+  var TIER = {"本命":"honmei","次点":"jiten","気分で":"kibun"};
+  var root = document.getElementById("anime-recommend");
+
+  function esc(s){ return String(s==null?"":s)
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  function render(data){
+    var items = (data && data.items) || [];
+    var head = '<h2>今週のおすすめ</h2>'
+      + '<div class="meta">更新: ' + esc(data.generated||"") + '　/　'
+      + esc(data.basis||"") + '</div>';
+    if(!items.length){ root.innerHTML = head + '<p class="err">今週の新規おすすめはありません。</p>'; return; }
+    var html = items.map(function(it){
+      var tierCls = TIER[it.tier] || "jiten";
+      var media = it.media ? '<span class="badge">'+esc(it.media)+'</span>' : "";
+      var cluster = it.cluster ? '<span class="badge">'+esc(it.cluster)+'</span>' : "";
+      var fit = (it.fit!=null) ? '<span class="badge">適合 '+esc(it.fit)+'</span>' : "";
+      var why = (it.why||it.note) ? '<p class="why">'+esc(it.why||it.note)+'</p>' : "";
+      var facts = it.facts ? '<p class="facts">'+esc(it.facts)+'</p>' : "";
+      var src = "";
+      if(Array.isArray(it.sources) && it.sources.length){
+        src = '<p class="src">' + it.sources.map(function(u,i){
+          return '<a href="'+esc(u)+'" target="_blank" rel="noopener">出典'+(i+1)+'</a>';
+        }).join("") + '</p>';
+      }
+      return '<div class="card"><div class="row">'
+        + '<span class="tier '+tierCls+'">'+esc(it.tier||"")+'</span>'
+        + '<span class="title">'+esc(it.title||"")+'</span>'
+        + media + cluster + fit
+        + '</div>' + why + facts + src + '</div>';
+    }).join("");
+    root.innerHTML = head + html;
+  }
+
+  fetch(RECOMMEND_URL, {cache:"no-cache"})
+    .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(function(e){
+      root.innerHTML = '<p class="err">おすすめの読み込みに失敗しました（'+esc(e.message)+'）。'
+        + 'RECOMMEND_URL のパスを確認してください。</p>';
+    });
+})();
+</script>
+
+</body>
+</html>
