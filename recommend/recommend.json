@@ -1,123 +1,37 @@
 {
-  "generated": "2026-09-11",
+  "generated": "2026-09-18",
   "basis": "profile/profile.json v2026-07-08",
   "note": "tier=本命/次点/気分で, fit=適合スコア(A+1.5B+C+D+E+G-2F), cluster=深層核/思弁/情念関係/雰囲気",
   "items": [
     {
       "tier": "本命",
-      "title": "フールナイト",
-      "media": "アニメ",
-      "cluster": "深層核",
-      "fit": 11.0,
-      "axes": {"A": 2, "B": 2, "C": 1, "D": 2, "E": 2, "F": 0, "G": 1},
-      "why": "幼馴染のトーシローとヨミコの絆(B)を中心に、人であり続けるか植物になり苦しみを手放すかという思弁的な二択(E)が、陽の差さなくなった世界の喪失感(D)と直結する。政治的・制度的な駆け引きは主眼になく(F=0)、電脳コイル的な「二人の関係性×喪失×思弁」の深層核クラスタに正面から合致する。",
-      "facts": "【確定】小学館「ビッグコミックスペリオール」連載の安田佳澄原作漫画。サンライズ×シャフト初タッグでアニメ化し、2026年にNetflixで世界独占配信。監督・湯川敦之、シリーズ構成・田中仁。CV内山昂輝(トーシロー)、寿美菜子(ヨミコ)。",
-      "sources": [
-        "https://www.animatetimes.com/news/details.php?id=1782183473",
-        "https://animeanime.jp/article/2026/06/24/100338.html",
-        "https://anime.eiga.com/news/126826/"
-      ]
-    },
-    {
-      "tier": "本命",
-      "title": "ひなちゃんが生きてるなら",
-      "media": "マンガ",
-      "cluster": "深層核",
-      "fit": 10.0,
-      "axes": {"A": 2, "B": 2, "C": 1, "D": 2, "E": 1, "F": 0, "G": 1},
-      "why": "閉鎖的な山村で唯一心を許せた幼馴染との絆(B)を核に、4年前の「神隠し」という喪失(D)と、姿の変わらぬまま帰還した幼馴染をめぐる村の民俗的タブー(E)が絡む百合ミステリー。関係性・喪失・オカルト思弁が凝集する深層核クラスタに合致する。",
-      "facts": "【確定】一迅社「コミック百合姫」2026年1月号より連載開始。単行本第1巻(ISBN 9784758098854)は2026年5月18日刊行。",
-      "sources": [
-        "https://natalie.mu/comic/news/648555",
-        "https://www.ichijinsha.co.jp/yurihime/title/%E7%B4%AC%E3%82%81%E3%82%81/%E3%81%B2%E3%81%AA%E3%81%A1%E3%82%83%E3%82%93%E3%81%8C%E7%94%9F%E3%81%8D%E3%81%A6%E3%82%8B%E3%81%AA%E3%82%89/",
-        "https://www.hanmoto.com/bd/isbn/9784758098854"
-      ]
-    },
-    {
-      "tier": "本命",
-      "title": "DIGITAL EXORCIST",
+      "title": "Fuyukuru. - Winter winds, adieu? -",
       "media": "VN/ゲーム",
       "cluster": "深層核",
       "fit": 10.0,
-      "axes": {"A": 1, "B": 2, "C": 1, "D": 1, "E": 2, "F": 0, "G": 2},
-      "why": "引退した「デジタル・エクソシスト」ソーヤーとAIパートナー\"Tomodachi\"の相棒関係(B)が捜査を駆動し、90年代末のテクノロジーとオカルトが融合した思弁的な世界観(E)は知的密度が高い(G)。組織運営的な最適化要素はなく(F=0)、瑠璃の宝石/秘封倶楽部的な「相棒関係×オカルト思弁」の深層核クラスタに合致する。",
-      "facts": "【確定】Cool Beans Productions開発のVN/アドベンチャーゲーム。Steamでリリース済み。BitSummit PUNCH 2026にてVGC(Video Games Chronicle)選出の\"Best Visual Novel\"を受賞。",
+      "axes": {"A": 1, "B": 2, "C": 1, "D": 2, "E": 2, "F": 0, "G": 1},
+      "why": "外界から隔離された「不死の少女たち」だけの施設を舞台に、少女同士の百合的な絆(B)が全編を駆動する電波系ミステリー。老いてはまた幼児に戻る円環的な不死という思弁的設定(E)が、『見えざる観測者に才能を認められると消える(卒業)』という不可逆の別れ＝喪失(D)に直結する。施設内の権力運営が主眼ではなく(F=0)、瑠璃の宝石的な『閉じた箱庭×関係性×不死の思弁』の深層核クラスタに合致する。",
+      "facts": "【確定】Silky's Plus開発、渡辺涼一脚本の電波系百合ビジュアルノベル。2026年9月10日にSteam・MangaGamer・Kagura Gamesにて英語版がPCで発売。",
       "sources": [
-        "https://store.steampowered.com/app/2944390/DIGITAL_EXORCIST/",
-        "https://www.videogameschronicle.com/news/ratatan-wins-top-honor-at-bitsummit-awards-while-vgc-crowns-visual-novel-digital-exorcist/",
-        "https://coolbeansproductions.itch.io/digital-exorcist"
-      ]
-    },
-    {
-      "tier": "本命",
-      "title": "Drowning Song of the Stagnant Sea",
-      "media": "VN/ゲーム",
-      "cluster": "情念関係",
-      "fit": 10.0,
-      "axes": {"A": 2, "B": 2, "C": 1, "D": 2, "E": 1, "F": 0, "G": 1},
-      "why": "人を喰らう衝動を抱える怪物ギゼラと人間アイシャという二人だけの関係(B)が全編を駆動する百合ダークファンタジー。怪物と人間という埋められない断絶がもたらす喪失感(D)と切実な情念(A)が濃く、CLANNAD/SAO的な情念関係クラスタに近い。",
-      "facts": "【確定】Steamにて2026年4月17日リリース。プラトニックな百合ダークファンタジーVNとして紹介されている。",
-      "sources": [
-        "https://automaton-media.com/en/news/dark-fantasy-platonic-yuri-visual-novel-drowning-song-of-the-stagnant-sea-launches-on-steam-a-scylla-meets-the-most-beautiful-human-shes-eve/",
-        "https://store.steampowered.com/app/3966180/Drowning_Song_of_the_Stagnant_Sea/",
-        "https://www.igdb.com/games/drowning-song-of-the-stagnant-sea"
-      ]
-    },
-    {
-      "tier": "本命",
-      "title": "鹽津城",
-      "media": "小説",
-      "cluster": "思弁",
-      "fit": 9.5,
-      "axes": {"A": 1, "B": 1, "C": 1, "D": 2, "E": 2, "F": 0, "G": 2},
-      "why": "塩分を含む水がエントロピーに反して固化していく世界を、近未来から遠未来へ連作短編で描く思弁SF(E・G高)。「しお」に覆われゆく風景と病む身体、歴史の折り重なりが郷愁と喪失(D)を強く帯びる。二人組の絆(B)は軸ではなく世界観に従属的なため思弁クラスタに位置づける。",
-      "facts": "【確定】飛浩隆『鹽津城』、河出書房新社より刊行。「SFが読みたい！2026年版」国内篇第1位。",
-      "sources": [
-        "https://www.kawade.co.jp/np/isbn/9784309039367/",
-        "https://prtimes.jp/main/html/rd/p/000001171.000012754.html"
+        "https://noisypixel.net/fuyukuru-winter-winds-adieu-pc-release/",
+        "https://blog.mangagamer.org/2026/09/09/fuyukuru-winter-winds-adieu-now-available-on-mangagamer/",
+        "https://www.kaguragames.com/product/fuyukuru-winter-winds-adieu/",
+        "https://www.nookgaming.com/fuyukuru-winter-winds-adieu-review/"
       ]
     },
     {
       "tier": "次点",
-      "title": "隙間",
+      "title": "鬼妃～「愛してる」は、怖いこと～",
       "media": "マンガ",
-      "cluster": "雰囲気",
-      "fit": 8.5,
-      "axes": {"A": 2, "B": 1, "C": 2, "D": 2, "E": 0, "F": 0, "G": 1},
-      "why": "祖母の死と失恋を抱えたまま沖縄へ交換留学する主人公が、異国の人々や歴史との交流を通じ自分を取り戻していく。生活・異文化の手触り(C)と喪失(D)、当事者の情念(A)が濃く、ARIA/ヨコハマ買い出し紀行的な雰囲気クラスタに位置する。",
-      "facts": "【確定】高妍、KADOKAWA「ビームコミックス」より全4巻刊行、2025年完結。「このマンガがすごい！2026」オンナ編第2位。",
-      "sources": [
-        "https://natalie.mu/comic/pp/sukima",
-        "https://www.okinawatimes.co.jp/articles/-/1732093"
-      ]
-    },
-    {
-      "tier": "次点",
-      "title": "デモンズ・クレスト",
-      "media": "アニメ",
       "cluster": "情念関係",
-      "fit": 7.0,
-      "axes": {"A": 2, "B": 2, "C": 1, "D": 1, "E": 1, "F": 1, "G": 1},
-      "why": "フルダイブ型MRゲームがデスゲームと化す中、双子の妹や級友との絆(B)を頼りに切実に生き延びようとする(A)。石化していく仲間という喪失感(D)を帯びるが、脱出のための駆け引きがやや制度的最適化寄り(F=1)であるため、深層核ではなく情念関係クラスタの次点に位置づける。",
-      "facts": "【確定】川原礫(ソードアート・オンライン作者)原作、電撃文庫のMR題材新作。Production I.G制作、総監督ウシロシンジ。2026年11月6日よりAmazon Prime Videoで世界独占配信。",
+      "fit": 7.5,
+      "axes": {"A": 2, "B": 1, "C": 0, "D": 2, "E": 1, "F": 0, "G": 1},
+      "why": "幼馴染ちかげの葬式で「お前がちかげを殺した」と告げられた大学生あこが、村に伝わる『鬼』の禁忌の言い伝えと祟りに追い詰められていく純愛ホラーミステリー。幼馴染との断ち切られた絆と喪失(D)、当事者の切実な情念(A)を核に、土地に伝わる怪異の言い伝え(E)が絡む構成は、CLANNAD/SAO的な情念関係クラスタに近い。",
+      "facts": "【確定】原作：鉈手璃彩子（メディアワークス文庫／KADOKAWA）、漫画：町田とし子。新潮社「バンチコミックス」（くらげバンチ）にて連載、全43話で完結。英語版はYen Pressが2026年にライセンス取得。",
       "sources": [
-        "https://www.famitsu.com/article/202603/69559",
-        "https://www.kadokawa.co.jp/topics/15178/",
-        "https://news.denfaminicogamer.jp/news/260705r"
-      ]
-    },
-    {
-      "tier": "気分",
-      "title": "ホタルの嫁入り",
-      "media": "アニメ",
-      "cluster": "情念関係",
-      "fit": 7.0,
-      "axes": {"A": 2, "B": 2, "C": 0, "D": 2, "E": 0, "F": 0, "G": 0},
-      "why": "心臓の病で余命わずかな伯爵令嬢と、彼女に執着していく暗殺者という偽装結婚から始まる二人の関係(B)が全編を駆動する。余命ものとしての切実な情念(A)と喪失の気配(D)が濃いが、SF/思弁要素(E)はなく、CLANNAD的な情念関係クラスタの気分枠に位置づける。",
-      "facts": "【確定】david production制作、監督・亀井孝太郎。フジテレビ「ノイタミナ」枠で2026年10月9日放送開始。",
-      "sources": [
-        "https://www.fandompost.com/2026/08/02/firefly-wedding-anime-sets-premiere-date-with-cast-expansion-new-promo/",
-        "https://www.fandompost.com/2026/09/06/firefly-wedding-anime-reveals-new-key-visual/"
+        "https://kuragebunch.com/episode/2550689798767014805",
+        "https://ebook.shinchosha.co.jp/book/F915071/",
+        "https://www.cmoa.jp/title/298251/"
       ]
     }
   ]
