@@ -1,37 +1,66 @@
 {
-  "generated": "2026-09-18",
+  "generated": "2026-09-25",
   "basis": "profile/profile.json v2026-07-08",
   "note": "tier=本命/次点/気分で, fit=適合スコア(A+1.5B+C+D+E+G-2F), cluster=深層核/思弁/情念関係/雰囲気",
   "items": [
     {
       "tier": "本命",
-      "title": "Fuyukuru. - Winter winds, adieu? -",
+      "title": "ALICE=NULL",
       "media": "VN/ゲーム",
       "cluster": "深層核",
       "fit": 10.0,
       "axes": {"A": 1, "B": 2, "C": 1, "D": 2, "E": 2, "F": 0, "G": 1},
-      "why": "外界から隔離された「不死の少女たち」だけの施設を舞台に、少女同士の百合的な絆(B)が全編を駆動する電波系ミステリー。老いてはまた幼児に戻る円環的な不死という思弁的設定(E)が、『見えざる観測者に才能を認められると消える(卒業)』という不可逆の別れ＝喪失(D)に直結する。施設内の権力運営が主眼ではなく(F=0)、瑠璃の宝石的な『閉じた箱庭×関係性×不死の思弁』の深層核クラスタに合致する。",
-      "facts": "【確定】Silky's Plus開発、渡辺涼一脚本の電波系百合ビジュアルノベル。2026年9月10日にSteam・MangaGamer・Kagura Gamesにて英語版がPCで発売。",
+      "why": "悪魔を召喚した少女アリスと、魂と引き換えに願いを叶える悪魔シャーロットの二人だけの関係(B)が全編を駆動するミニマルな百合ビジュアルノベル。願いを叶える対価として魂＝自己の一部を失うという設定が、瑠璤の宝石/Fuyukuru.的な『不可逆の喪失(D)』に直結し、『実存とは何か』という思弁が終始二人の感情に接続する(E)。施設運営や制度の最適化は一切登場せず(F=0)、閉じた二人の関係×存在論的思弁という深層核クラスタの型に正面から合致する。",
+      "facts": "【確定】開発はBlink Hydrate（Steamでは「Blink」名義）。『GMTK Game Jam 2026』（お題「カウントダウン」）出展作をフルボリューム化し、2026年9月23〜24日にSteamストアページとウィッシュリストを公開。日本語字幕対応予定。正式発売日は本稿執筆時点で未定（近日/TBD）。",
       "sources": [
-        "https://noisypixel.net/fuyukuru-winter-winds-adieu-pc-release/",
-        "https://blog.mangagamer.org/2026/09/09/fuyukuru-winter-winds-adieu-now-available-on-mangagamer/",
-        "https://www.kaguragames.com/product/fuyukuru-winter-winds-adieu/",
-        "https://www.nookgaming.com/fuyukuru-winter-winds-adieu-review/"
+        "http://www.gamespark.jp/article/2026/09/23/172672.html",
+        "https://automaton-media.com/articles/newsjp/alicenull-20260924-469747/",
+        "https://blinkhydrate.itch.io/alicenull/devlog/1674127/wishlist-alicenull-on-steam"
+      ]
+    },
+    {
+      "tier": "本命",
+      "title": "空、はてしない青",
+      "media": "小説",
+      "cluster": "情念関係",
+      "fit": 8.0,
+      "axes": {"A": 2, "B": 2, "C": 1, "D": 2, "E": 0, "F": 0, "G": 0},
+      "why": "若年性アルツハイマーで余命宣告された26歳の男性エミルが、掲示板で見知らぬ同行者ジョアンヌを募りピレネー山脈へ旅立つロードノベル。素性を語らない相手との一対一の道行きが関係性(B)を駆動し、記憶が失われていく病という設定が喪失・余韻(D)を全編に満たす。当事者の切実な情念(A)中心で思弁・知的密度は薄く(E=0,G=0)、CLANNAD/四月は君の嘘と同型の『情念×関係ドラマ』クラスタに正確に合致する。",
+      "facts": "【確定】メリッサ・ダ・コスタ著、山本知子訳、講談社より上下巻刊行。2026年本屋大賞「翻訳小説部門」第1位に選出（本屋大賞実行委員会発表）。著者は2023・2024年にフランスで最も売れた作家。",
+      "sources": [
+        "https://www.hontai.or.jp/history/honyaku2026.html",
+        "https://sorahate.kodansha.co.jp/",
+        "https://www.amazon.co.jp/%E7%A9%BA%E3%80%81%E3%81%AF%E3%81%A6%E3%81%97%E3%81%AA%E3%81%84%E9%9D%92-%E4%B8%8A-%E3%83%A1%E3%83%AA%E3%83%83%E3%82%B5%E3%83%BB%E3%83%80%E3%83%BB%E3%82%B3%E3%82%B9%E3%82%BF/dp/4065354161"
       ]
     },
     {
       "tier": "次点",
-      "title": "鬼妃～「愛してる」は、怖いこと～",
-      "media": "マンガ",
-      "cluster": "情念関係",
-      "fit": 7.5,
-      "axes": {"A": 2, "B": 1, "C": 0, "D": 2, "E": 1, "F": 0, "G": 1},
-      "why": "幼馴染ちかげの葬式で「お前がちかげを殺した」と告げられた大学生あこが、村に伝わる『鬼』の禁忌の言い伝えと祟りに追い詰められていく純愛ホラーミステリー。幼馴染との断ち切られた絆と喪失(D)、当事者の切実な情念(A)を核に、土地に伝わる怪異の言い伝え(E)が絡む構成は、CLANNAD/SAO的な情念関係クラスタに近い。",
-      "facts": "【確定】原作：鉈手璃彩子（メディアワークス文庫／KADOKAWA）、漫画：町田とし子。新潮社「バンチコミックス」（くらげバンチ）にて連載、全43話で完結。英語版はYen Pressが2026年にライセンス取得。",
+      "title": "時の家",
+      "media": "小説",
+      "cluster": "雰囲気",
+      "fit": 8.5,
+      "axes": {"A": 1, "B": 1, "C": 2, "D": 2, "E": 1, "F": 0, "G": 1},
+      "why": "一軒の家が建てられてから解体されるまでの間に住み、訪れた四人の記憶・意識を、家自体が語り手であるかのように紡ぐ連作。特定の二人組の絆というより、世代を越えて積み重なる住人たちとの淡い結びつき(B)と、家という『器』が失われていく郷愁・余韻(D)が濃厚。建築的なディテール(C)と『家が語る』という穏やかな思弁的仕掛け(E)を伴い、ARIA/ヨコハマ買い出し紀行的な雰囲気クラスタに、喪失の強さの分だけ深層核寄りの色を足した位置づけ。",
+      "facts": "【確定】鳥山まこと著、講談社刊。第47回野間文芸新人賞（2025年）および第174回芥川龍之介賞（2026年）をダブル受賞。著者は建築士としても活動。",
       "sources": [
-        "https://kuragebunch.com/episode/2550689798767014805",
-        "https://ebook.shinchosha.co.jp/book/F915071/",
-        "https://www.cmoa.jp/title/298251/"
+        "https://www.kodansha.co.jp/book/products/0000419253",
+        "https://prtimes.jp/main/html/rd/p/000007979.000001719.html",
+        "https://booklog.jp/item/1/4065412277"
+      ]
+    },
+    {
+      "tier": "気分",
+      "title": "ときときチャンネル ない天気作ってみた",
+      "media": "小説",
+      "cluster": "思弁",
+      "fit": 5.5,
+      "axes": {"A": 0, "B": 1, "C": 1, "D": 0, "E": 1, "F": 0, "G": 2},
+      "why": "配信者・十時さくらが、マッドサイエンティスト多々良美紀の『電気DIY』『天気改変』『ブラックホール筋トレ』といった発明を配信コメント形式で紹介する、知的密度(G)の高いストリーミングSF短編。関係性・喪失は薄く深層核からは外れるが、電脳コイル的な『思弁設定の情報量そのものを楽しむ』軸には合致するため、気分転換の一冊として。",
+      "facts": "【確定】宮澤伊織著、東京創元社「創元日本SF叢書」。第57回星雲賞・日本短編部門を受賞（2026年6月1日発表）。配信コメントSFシリーズの第2作。",
+      "sources": [
+        "https://realsound.jp/book/2026/06/post-2412957.html",
+        "https://prtimes.jp/main/html/rd/p/000000254.000009527.html",
+        "https://news.livedoor.com/article/detail/31436674/"
       ]
     }
   ]
