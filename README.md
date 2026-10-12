@@ -112,6 +112,21 @@ dashboard/
 6. `profile.json` の `version` を更新して commit & push。
 - 注意: dアニメ/dアカウントの自動操作は利用規約の確認を。
 
+### 4.3 正本（NAS）への追従
+正本は NAS の bare（`/volume1/git/bundles/dashboard.git`）、GitHub は窓口。ただしこの束は週次ルーティンが **GitHub の main に直接 push** するため、流れは他の束と逆で **窓口 → 作業コピー → 正本** になる。
+
+- 定期的（月 1 回程度）に作業コピーで「始める」を打ち、正本を追従させる:
+
+```bash
+cd ~/40_Areas/42_Sites/dashboard
+git pull --ff-only origin main
+git annex sync --content nas
+```
+
+- 手元で編集する時は必ず上の「始める」の後に行い、終えたら `git annex sync --content nas` → `git push origin main`（正本 → 窓口の通常順）。先に手元で commit すると GitHub 側の週次 commit と分岐する
+- ルーティンが作る `claude/*` 枝は main に取り込まれたら GitHub から消す（`git push origin --delete <branch>`）。NAS へは main だけを送る
+- `.gitattributes` の規則（10 MB 超は annex）は作業コピーでのみ効く。ルーティンは annex を持たないので、`recommend/` の出力は 10 MB 未満に保つ
+
 ---
 
 ## 5. 修正・拡張の方法（どこを触るか）

@@ -1,0 +1,15 @@
+slug: dashboard   # プロジェクトのフォルダ名と一致．一意
+category: 42_Sites   # 親フォルダ名と一致（31_Research 等）．30→50 の移動で変えない
+title: dアニメ嗜好おすすめダッシュボード   # プロジェクトの full タイトル
+summary: 視聴履歴の嗜好モデルから週次で新作を探索・採点し GitHub Pages に公開する静的サイト   # 1 行．リマインドに出す
+priority: low             # high / medium / low
+status: active             # active / waiting / postponed / done / archived
+started: 2026-07-09   # 立項日 YYYY-MM-DD．移行物は最古ファイルの日付
+deadline:
+  initial:                 # 着手時の期日．以後変えない
+  current:                 # 現在の期日．変更理由は commit メッセージに
+next: 月 1 回「始める」で正本を追従．週次 run の結果を時々確認   # 次の一手．1 行の要約のみ．詳細は束内の TODO.md
+from:
+  topics: []               # 引き継いだ 20_Resources の話題 ID
+  projects: []             # 引き継いだ・由来する束の slug
+updated: 2026-10-12   # YYYY-MM-DD
