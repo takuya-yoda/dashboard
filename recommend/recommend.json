@@ -1,52 +1,140 @@
 {
-  "generated": "2026-10-16",
+  "generated": "2026-10-23",
   "basis": "profile/profile.json v2026-07-08",
   "note": "tier=本命/次点/気分で, fit=適合スコア(A+1.5B+C+D+E+G-2F), cluster=深層核/思弁/情念関係/雰囲気",
   "items": [
     {
       "tier": "本命",
-      "title": "九龍ジェネリックロマンス（眉月じゅん）",
+      "title": "少女終末旅行",
       "media": "マンガ",
       "cluster": "深層核",
       "fit": 11.0,
       "axes": {
+        "A": 1,
+        "B": 2,
+        "C": 2,
+        "D": 2,
+        "E": 2,
+        "F": 0,
+        "G": 1
+      },
+      "why": "文明崩壊後の世界を旅する二人きりの関係性（B）と、終末の余韻・喪失（D）、哲学的思弁の情緒化（E）が深層核の重心に近い。Fは皆無（Claudeの解釈）。",
+      "facts": "【確定】つくみず作。くらげバンチ連載で2014年2月開始、完結が報じられている。TVアニメは2017年10月放送、WHITE FOX制作・尾崎隆晴監督。主人公はチトとユーリの二人。",
+      "sources": [
+        "https://anime.eiga.com/news/104774",
+        "https://anime.eiga.com/program/106307",
+        "https://kai-you.net/article/49439"
+      ]
+    },
+    {
+      "tier": "本命",
+      "title": "海獣の子供",
+      "media": "マンガ",
+      "cluster": "深層核",
+      "fit": 10.0,
+      "axes": {
+        "A": 1,
+        "B": 2,
+        "C": 1,
+        "D": 2,
+        "E": 2,
+        "F": 0,
+        "G": 1
+      },
+      "why": "少女と二人の少年の関係を軸に、海・生命・宇宙をめぐる思弁が情緒へ接続する。喪失と余韻も強い（Claudeの解釈）。",
+      "facts": "【確定】五十嵐大介原作。STUDIO4℃制作の劇場アニメが2019年6月7日公開（監督:渡辺歩、音楽:久石譲）。第23回文化庁メディア芸術祭アニメーション部門大賞。",
+      "sources": [
+        "https://www.bunka.go.jp/j-mediaarts-festival/award/previous/23rd/animation/index.html",
+        "https://eiga.com/news/20190606/21/",
+        "https://natalie.mu/comic/news/370042"
+      ]
+    },
+    {
+      "tier": "本命",
+      "title": "天国大魔境",
+      "media": "マンガ",
+      "cluster": "深層核",
+      "fit": 10.0,
+      "axes": {
+        "A": 1,
+        "B": 2,
+        "C": 1,
+        "D": 2,
+        "E": 2,
+        "F": 0,
+        "G": 1
+      },
+      "why": "マルとキルコの二人旅という関係性と、ポスト・アポカリプスの謎・SF思弁が情緒に結びつく（Claudeの解釈）。",
+      "facts": "【確定】石黒正数作、講談社アフタヌーンKC。単行本第13巻が2026年2月20日発売。TVアニメは2023年春放送（第13話は2023年6月24日）。",
+      "sources": [
+        "https://www.kodansha.co.jp/comic/products/0000423405",
+        "https://animeanime.jp/article/2023/06/24/78147.html"
+      ]
+    },
+    {
+      "tier": "次点",
+      "title": "違国日記",
+      "media": "マンガ",
+      "cluster": "情念関係",
+      "fit": 9.0,
+      "axes": {
         "A": 2,
         "B": 2,
+        "C": 2,
+        "D": 2,
+        "E": 0,
+        "F": 0,
+        "G": 0
+      },
+      "why": "人見知りの小説家と姪の同居という親密な関係性が核。喪失（親の死）を起点とする情念ドラマ。思弁軸は低い（Claudeの解釈）。",
+      "facts": "【確定】ヤマシタトモコ作、小学館。最終11巻まで刊行。新垣結衣・早瀬憩主演の実写映画が2024年6月7日公開（瀬田なつき監督）。",
+      "sources": [
+        "https://press.moviewalker.jp/news/article/1179916/",
+        "https://www.fashion-press.net/news/117138"
+      ]
+    },
+    {
+      "tier": "気分",
+      "title": "蟲師",
+      "media": "マンガ",
+      "cluster": "雰囲気",
+      "fit": 7.5,
+      "axes": {
+        "A": 0,
+        "B": 1,
         "C": 2,
         "D": 2,
         "E": 1,
         "F": 0,
         "G": 1
       },
-      "why": "郷愁の街・九龍城砦を舞台に、自分と瓜二つの『かつての婚約者』の存在を知った令子と工藤の二者関係が物語を駆動する。喪失と郷愁(D)、記憶・存在をめぐる思弁(E)が人物の情緒に奉仕し、制度の最適化(F)とは無縁（Claudeの解釈）。",
-      "facts": "【確定】原作は眉月じゅん作、週刊ヤングジャンプ（集英社）連載。TVアニメは2025年4月5日よりテレビ東京系で放送（鯨井令子役：白石晴香、工藤発役：杉田智和）。実写映画は2025年8月29日公開。",
+      "why": "怪異と人の距離を描く静かな連作。郷愁・余韻と世界の手触りが強い（Claudeの解釈）。",
+      "facts": "【確定】漆原友紀作。1999年アフタヌーンシーズン増刊で連載開始、2008年まで連載。TVアニメ続章は2014年4月放送開始、全22話、Artland制作。",
       "sources": [
-        "https://realsound.jp/movie/2025/03/post-1947279.html",
-        "https://anime.eiga.com/program/106107/",
-        "https://dengekionline.com/article/202410/20691"
+        "https://animeanime.jp/article/2014/02/21/17543.html",
+        "https://www.livechart.me/anime/394"
       ]
     },
     {
-      "tier": "次点",
-      "title": "魔法使いの夜",
-      "media": "VN/ゲーム",
-      "cluster": "雰囲気",
-      "fit": 8.0,
+      "tier": "気分",
+      "title": "惑星のさみだれ",
+      "media": "マンガ",
+      "cluster": "思弁",
+      "fit": 7.0,
       "axes": {
-        "A": 1,
+        "A": 2,
         "B": 2,
-        "C": 1,
+        "C": 0,
         "D": 1,
         "E": 1,
         "F": 0,
-        "G": 1
+        "G": 0
       },
-      "why": "人里離れた洋館を舞台に、少女たちと青年の小さな共同体の関係性が中心。魔術設定は人物の情緒に接続し、静かな日常と余韻の手触りがある（Claudeの解釈）。",
-      "facts": "【確定】原作はTYPE-MOON開発・発売のビジュアルノベルで2012年4月12日発売。劇場アニメ（ufotable制作）は2026年11月20日公開、蒼崎青子役は戸松遥、久遠寺有珠役は花澤香菜。奈須きのこ自身による小説版が星海社FICTIONSから全3巻で2026年8月27日（上巻）より刊行中（下巻の発売日は報道で食い違いあり【未確認】）。",
+      "why": "世界の命運を背負う少女と騎士の情念的な関係ドラマ（Claudeの解釈）。",
+      "facts": "【確定】水上悟志作、少年画報社、全10巻で完結。TVアニメ化が2022年1月に発表され同年夏放送、監督:中西伸彰。",
       "sources": [
-        "https://natalie.mu/comic/news/679769",
-        "https://press.moviewalker.jp/news/article/1422953/",
-        "https://dengekionline.com/article/202607/80698"
+        "https://anime.eiga.com/news/115180",
+        "https://kai-you.net/article/82635"
       ]
     }
   ]
