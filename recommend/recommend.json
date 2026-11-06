@@ -1,98 +1,120 @@
 {
-  "generated": "2026-10-30",
+  "generated": "2026-11-06",
   "basis": "profile/profile.json 2026-07-08",
   "note": "tier=本命/次点/気分で, fit=適合スコア(A+1.5B+C+D+E+G-2F), cluster=深層核/思弁/情念関係/雰囲気",
   "items": [
     {
       "tier": "本命",
-      "title": "雲のむこう、約束の場所",
+      "title": "あなたの人生の物語（テッド・チャン）",
+      "media": "小説",
+      "cluster": "深層核",
+      "fit": 10.5,
+      "axes": {
+        "A": 2,
+        "B": 1,
+        "C": 1,
+        "D": 2,
+        "E": 2,
+        "F": 0,
+        "G": 2
+      },
+      "why": "言語と時間認識というSF思弁が、母と娘の関係と喪失の予感という情緒に直結する。Fは皆無（Claudeの解釈）。",
+      "facts": "【確定】早川書房（ハヤカワ文庫SF）刊の短編集で表題作を含む8篇収録。表題作は2016年に映画『メッセージ』として公開、原作中編は2000年ネビュラ賞中編部門受賞。",
+      "sources": [
+        "https://www.maruzenjunkudo.co.jp/products/9784152098993",
+        "https://kai-you.net/article/69817",
+        "https://www.excite.co.jp/news/article/E1495217877163"
+      ]
+    },
+    {
+      "tier": "本命",
+      "title": "ほしのこえ",
       "media": "アニメ",
       "cluster": "深層核",
-      "fit": 11.0,
+      "fit": 10.0,
       "axes": {
         "A": 2,
         "B": 2,
-        "C": 1,
+        "C": 0,
         "D": 2,
         "E": 2,
         "F": 0,
         "G": 1
       },
-      "why": "少年二人と少女の関係性、失われた約束とパラレルワールド的SF思弁が情緒に直結する。Fは皆無（Claudeの解釈）。",
-      "facts": "【確定】新海誠監督の長編劇場アニメ、2004年11月20日公開、91分、配給CoMix Wave。新海初の長編作品。毎日映画コンクール アニメーション映画賞(2004年)。",
+      "why": "宇宙と地上に引き離された二人のメールの時間差という思弁が、喪失と郷愁そのものになる（Claudeの解釈）。",
+      "facts": "【確定】新海誠監督、2002年製作・25分、配給MANGAZOO.COM、2002年2月2日劇場公開。監督・脚本・作画・美術・編集のほとんどを新海誠が一人で担当。",
       "sources": [
-        "https://eiga.com/movie/41186",
-        "https://www.allcinema.net/cinema/241003",
-        "https://kai-you.net/word/%E6%96%B0%E6%B5%B7%E8%AA%A0"
+        "https://www.allcinema.net/cinema/pdf/239072",
+        "https://eiga.com/movie/56097/",
+        "https://news.mynavi.jp/article/heisei_anime-9/"
       ]
     },
     {
       "tier": "本命",
-      "title": "ハーモニー（伊藤計劃）",
-      "media": "小説",
-      "cluster": "深層核",
+      "title": "ef - a tale of memories.",
+      "media": "アニメ",
+      "cluster": "情念関係",
       "fit": 10.0,
       "axes": {
         "A": 2,
         "B": 2,
         "C": 1,
         "D": 2,
-        "E": 2,
-        "F": 1,
-        "G": 2
+        "E": 1,
+        "F": 0,
+        "G": 1
       },
-      "why": "少女三人の関係と喪失を、管理社会という思弁設定が情緒へ接続する。F=1は管理社会設定のため減点（Claudeの解釈）。",
-      "facts": "【確定】早川書房より2008年12月刊（ハヤカワSFシリーズ Jコレクション）、2010年12月文庫化。第40回星雲賞(日本長編)・第30回日本SF大賞受賞。2015年に劇場アニメ化。",
+      "why": "複数組の男女の記憶と喪失が交錯する関係ドラマ。思弁は控えめで情念寄り（Claudeの解釈）。",
+      "facts": "【確定】2007年放送のTVアニメ全12話、シャフト制作。minoriのビジュアルノベル『ef』が原作。放送日は資料により1〜2日の差異あり。第2期『ef - a tale of melodies.』は2008年10月放送。",
       "sources": [
-        "https://kai-you.net/word/%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%83%BC",
-        "https://animeanime.jp/article/2009/07/04/4879.html",
-        "https://www.inside-games.jp/article/2015/11/05/92718.html"
+        "https://myanimelist.net/anime/2924",
+        "https://en.wikipedia.org/wiki/List_of_Ef_episodes",
+        "https://www.animenewsnetwork.com/review/ef/a-tale-of-memories/blu-ray-complete-collection"
       ]
     },
     {
       "tier": "次点",
-      "title": "かがみの孤城（辻村深月）",
-      "media": "小説",
+      "title": "最終兵器彼女（高橋しん）",
+      "media": "マンガ",
       "cluster": "情念関係",
+      "fit": 9.0,
+      "axes": {
+        "A": 2,
+        "B": 2,
+        "C": 1,
+        "D": 2,
+        "E": 1,
+        "F": 0,
+        "G": 0
+      },
+      "why": "二人の関係が戦争という極限で喪失へ向かう情念×関係の物語。知的密度は低め（Claudeの解釈）。",
+      "facts": "【確定】小学館『ビッグコミックスピリッツ』連載、全7巻、累計350万部以上。2002年7月からTVアニメ放送（DVD全5巻）、番外編OVA『Another love song』全2巻。",
+      "sources": [
+        "https://www.cmoa.jp/title/65387",
+        "https://ciatr.jp/topics/308776",
+        "https://av.watch.impress.co.jp/docs/20050310/toei.htm"
+      ]
+    },
+    {
+      "tier": "気分",
+      "title": "秒速5センチメートル",
+      "media": "アニメ",
+      "cluster": "雰囲気",
       "fit": 8.0,
       "axes": {
         "A": 2,
         "B": 2,
         "C": 1,
-        "D": 1,
-        "E": 1,
+        "D": 2,
+        "E": 0,
         "F": 0,
         "G": 0
       },
-      "why": "居場所を失った中学生たちの小集団の絆と秘密が物語を駆動する情念×関係型。思弁は軽め（Claudeの解釈）。",
-      "facts": "【確定】辻村深月原作、2018年本屋大賞受賞。原恵一監督で劇場アニメ化、2022年12月23日公開。2024年2月9日金曜ロードショーで地上波初放送。",
+      "why": "距離と時間による喪失・余韻が中心。思弁・知的密度は薄い（Claudeの解釈）。",
+      "facts": "【確定】新海誠監督、全3話の連作短編（桜花抄/コスモナウト/秒速5センチメートル）、2007年3月3日公開、63分。",
       "sources": [
-        "https://bunshun.jp/articles/-/59632",
-        "https://www.famitsu.com/news/202402/09334053.html",
-        "https://animeanime.jp/article/2024/01/12/82258.html"
-      ]
-    },
-    {
-      "tier": "気分",
-      "title": "星を継ぐもの（J・P・ホーガン）",
-      "media": "小説",
-      "cluster": "思弁",
-      "fit": 7.5,
-      "axes": {
-        "A": 0,
-        "B": 1,
-        "C": 1,
-        "D": 1,
-        "E": 2,
-        "F": 0,
-        "G": 2
-      },
-      "why": "月面で発見された遺体を巡る科学的謎解き。知的密度は高いが人物の情念は薄め（Claudeの解釈）。",
-      "facts": "【確定】1980年邦訳初刊（池央耿訳）、第12回星雲賞海外長編部門受賞(1981年)。創元SF文庫で刊行、新版は2023年7月7日発売。",
-      "sources": [
-        "https://www.kinokuniya.co.jp/f/dsg-01-9784488663315",
-        "https://gigazine.net/news/20100713_james_patrick_hogan",
-        "https://www.famitsu.com/news/202307/11309244.html"
+        "https://dic.nicovideo.jp/a/%E7%A7%92%E9%80%9F5%E3%82%BB%E3%83%B3%E3%83%81%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB",
+        "https://www.weblio.jp/content/%E7%A7%92%E9%80%9F5%E3%82%BB%E3%83%B3%E3%83%81%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB+a+chain+of+short+stories+about+their+distance"
       ]
     }
   ]
